@@ -17,18 +17,20 @@ Use them to learn my personal trainer’s session style and formatting patterns 
 
 RULES
 
-- Output must be 5 WEEK plan for my available days (Mon, Tue, Wed, Thu, Sun).
-- Each session must fit within 60 minutes including warm-up.
-- Each sessions must include 9 excersises in total divided into 3 blocks of 3 exercises each.
+- Output must be 5 WEEK plan with my available days (Tue, Wed, Thu, Frid, Sat, Sun).
+- Each session must fit within 60 minutes and include 9 excersises each day (not include sat, sun), divided in 3 blocks of 3 exercises each.
 - Each block must have a short title (e.g., "Strength Upper Body", "Core + Mobility", "Endurance Run").
 - Each exercise must have Load, Reps, Rounds, and Notes fields.
 - Use only exercises that I can do with my available equipment and mobility.
 - Prioritize my known exercises unless the YAML history strongly indicates other staples.
 - Running volume must increase gradually; protect my ankle (past sprain, occasional mild pain ~2/7). Avoid sudden increases in impact or intensity.
-- I swim at least once per week; I am starting to run.
+- Include swimming practice on Saturday of one hour. Don't include detailed swimming exercises, just a single line with duration
+- 1 run on Sunday of 45 minutes, gradually increasing pace and distance over 5 weeks. Just a single line with duration and notes.
+- 1 run on Tuesday and Friday of 30 minutes, gradually increasing pace and distance over 5 weeks. Just a single line with duration and notes.
 - I have: barbell + plates, dumbbells, stability ball, plyometric box.
 - I have no mobility limitations (but include mobility work as supportive).
 - Prefer exercises I already know (Deadlift, Bench Press, Single-Arm Dumbbell Row, Barbell Row) unless the YAML history strongly indicates other staples.
+- Don't include plank and mobility core in Block 3.
 
 AUTO-PROGRESSION:
 
@@ -38,7 +40,6 @@ AUTO-PROGRESSION:
 - Week 5 should be a deload (10–20% volume reduction).
 - Do not exceed safe progression rules for running, strength, or swimming.
 - Each day should work different training cores. 
-- Should have at least one swimming training on wednesday.
 
 OUTPUT FORMAT
 Return ONLY:
@@ -74,19 +75,23 @@ MARKDOWN CONTEXT
 # Goals
 
 ## Primary goal
+
 Take care of my health.  
 Feel strong, physically capable, and maintain good flexibility and mobility.
 
 ## Secondary goals
-- Complete a 21K (half marathon) in April
+
+- Complete a 21K (half marathon) on April 12th
 - Participate in swimming competitions
 
 ## Focus areas
+
 - Strength
 - Flexibility / mobility
 - Cardiovascular endurance (running + swimming)
 
 ## Time horizon
+
 - Long-term: ongoing health, strength, and flexibility
 - Medium-term: April (21K race)
 - Seasonal: swimming competitions
@@ -154,7 +159,7 @@ These exercises do not require technical re-teaching.
 
 ## Training frequency
 
-- Days per week: 5
+- Days per week: 6
 
 ## Session duration
 
@@ -162,16 +167,16 @@ These exercises do not require technical re-teaching.
 
 ## Available days
 
-- Monday
 - Tuesday
 - Wednesday
 - Thursday
+- Friday
+- Saturday
 - Sunday
 
 ## Preferred rest days
 
-- Friday
-- Saturday
+- Monday
 
 ## Equipment available
 

@@ -2,7 +2,7 @@
 
 ## Training frequency
 
-- Days per week: 5
+- Days per week: 6
 
 ## Session duration
 
@@ -10,16 +10,16 @@
 
 ## Available days
 
-- Monday
 - Tuesday
 - Wednesday
 - Thursday
+- Friday
+- Saturday
 - Sunday
 
 ## Preferred rest days
 
-- Friday
-- Saturday
+- Monday
 
 ## Equipment available
 
