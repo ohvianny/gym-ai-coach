@@ -1,0 +1,59 @@
+date: 2025-08-12
+type: personal_training
+
+warmup:
+  - mobility
+  - activation: W / T / Y / I
+  - core: plank
+
+workout:
+  - exercise:
+      en: goblet squat
+      es: sentadilla con mancuerna en pecho
+    block: 1
+    reps: 15
+    load: 18kg
+
+  - exercise:
+      en: single-arm dumbbell row
+      es: remo unilateral con mancuerna
+    block: 1
+    reps:
+      left: 10
+      right: 10
+    load: 18kg
+
+  - exercise:
+      en: static lunge
+      es: estocada fija
+    block: 2
+    reps:
+      left: 15
+      right: 15
+    load:
+      left: 10kg
+      right: 10kg
+
+  - exercise:
+      en: dumbbell bicep curl (palms up)
+      es: bíceps con mancuerna (palmas hacia arriba)
+    block: 2
+    reps: 12
+    load:
+      left: 6kg
+      right: 6kg
+
+  - exercise:
+      en: dumbbell Squat to Press
+      es: sentadilla con empuje con mancuerna
+    block: 3
+    reps: 10
+    load:
+      left: 10kg
+      right: 10kg
+
+  - exercise:
+      en: box jumps
+      es: saltos sobre caja
+    block: 3
+    reps: 10

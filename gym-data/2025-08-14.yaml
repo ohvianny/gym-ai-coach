@@ -1,0 +1,58 @@
+date: 2025-08-14
+type: personal_training
+
+warmup:
+  - mobility
+  - activation: W / T / Y / I
+  - core: plank
+
+workout:
+  - exercise:
+      en: rear-foot-elevated dumbbell romanian deadlift
+      es: peso muerto rumano con mancuerna y pie trasero elevado
+    blockk: 1
+    reps:
+      left: 12
+      right: 12
+    load:
+      left: 10kg
+      right: 10kg
+
+  - exercise:
+      en: dumbbell chest press on fitball
+      es: press de pecho con mancuerna sobre fitball
+    block: 1
+    reps: 15
+    load:
+      left: 10kg
+      right: 10kg
+
+  - exercise:
+      en: fitball hamstring curl
+      es: isquios en fitball
+    block: 2
+    reps: 15
+    load: bodyweight
+
+  - exercise:
+      en: box triceps dips
+      es: fondos de tríceps sobre caja
+    block: 2
+    reps: 20
+    load: bodyweight
+
+  - exercise:
+      en: high plank
+      es: plancha militar
+    block: 3
+    reps:
+      left: 10
+      right: 10
+    load: bodyweight
+
+  - exercise:
+      en: hand walks
+      es: caminatas de manos
+    block: 3
+    reps: 10
+    load: bodyweight

@@ -1,0 +1,62 @@
+date: 2025-12-31
+type: personal_training
+
+warmup:
+  - mobility
+  - activation: W / T / Y / I
+  - core: plank
+
+workout:
+  - exercise:
+      en: clean squat
+      es: clean sentadilla
+    block: 1
+    duration_seconds: 60
+    load:
+      left: 10kg
+      right: 10kg
+
+  - exercise:
+      en: hand walk (no push-up) + jump
+      es: caminata con manos (sin flexiones) + salto
+    block: 1
+    duration_seconds: 60
+    load: bodyweight
+
+  - exercise:
+      en: dumbbell squat to press
+      es: sentadilla con mancuerna a press
+    block: 1
+    duration_seconds: 60
+    load:
+      left: 9kg
+      right: 9kg
+
+  - exercise:
+      en: sumo dumbbell deadlift
+      es: sumo con mancuernas
+    block: 2
+    duration_seconds: 60
+    load: 34kg
+
+  - exercise:
+      en: alternating dumbbell snatch
+      es: snatch alternando
+    block: 2
+    duration_seconds: 60
+    load: 12kg
+
+  - exercise:
+      en: alternating reverse lunge
+      es: estocada atras alternada
+    block: 3
+    duration_seconds: 60
+    load:
+      left: 12kg
+      right: 12kg
+
+  - exercise:
+      en: burpees
+    block: 3
+    duration_seconds: 60
+    load: bodyweight

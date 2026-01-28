@@ -1,0 +1,56 @@
+date: 2025-08-15
+type: personal_training
+
+warmup:
+  - mobility
+  - activation: W / T / Y / I
+  - core: plank
+
+workout:
+  - exercise:
+      en: dumbbell glute bridge
+      es: puente de glúteos con mancuerna
+    block: 1
+    reps: 20
+    load: 18kg
+
+  - exercise:
+      en: push ups
+    block: 1
+    reps: 15
+    load: bodyweight
+
+  - exercise:
+      en: hip thrust unilateral
+    block: 2
+    reps:
+      left: 15
+      right: 15
+    load:
+      left: 14kg
+      right: 14kg
+
+  - exercise:
+      en: single-arm chest fly in lunge stance
+      es: vuelo unilateral en estocada
+    block: 2
+    reps:
+      left: 10
+      right: 10
+    load:
+      left: 6kg
+      right: 6kg
+
+  - exercise:
+      en: seated dumbbell shoulder press
+      es: press de hombros con mancuerna sentado
+    block: 3
+    reps: 10
+    load:
+      left: 10kg
+      right: 10kg
+
+  - exercise: burpees
+    block: 3
+    reps: 10
+    load: bodyweight

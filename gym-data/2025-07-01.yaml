@@ -1,0 +1,61 @@
+date: 2025-07-01
+type: personal_training
+
+workout:
+  - exercise:
+      en: squat to press
+      es: sentadilla con empuje
+    block: 1
+    reps: 3
+    load:
+      left: 12kg
+      right: 12kg
+
+  - exercise:
+      en: push-up
+      es: push-up en piso
+    blockkkkk: 1
+    reps: 3
+    load: bodyweight
+
+  - exercise:
+      en: gorilla row
+    block: 1
+    reps: 3
+    load:
+      left: 16kg
+      right: 16kg
+
+  - exercise:
+      en: vertical rack row with squat
+      es: remo rack vertical con sentadilla
+    block: 2
+    reps: 1
+    load: 16kg
+
+  - exercise:
+      en: alternating dumbbell snatch
+      es: snatch alternado con mancuerna
+    block: 2
+    reps: 1
+    load: 13kg
+
+  - exercise:
+      en: burpees
+    block: 2
+    reps: 1
+    load: bodyweight
+
+  - exercise:
+      en: plank side-to-side weight transfer
+      es: pasar de lado a lado en plancha
+    block: 3
+    duration_seconds: 45
+    load: 12kg
+
+  - exercise:
+      en: hand walk with feet on box
+      es: caminata de manos pie en cajon
+    block: 3
+    duration_seconds: 45
+    load: box
